@@ -1,11 +1,12 @@
 #header {
 	height: 15%;
 	width: 100%;
-	vertical-align: top;
+	vertical-align: middle;
+	text-align: center;
 }
 #header img{
-	width: 100px;
-	height: 50px;
+	width: 19%;
+	height: 120px;
 	background-color: white;
 }
 
@@ -13,6 +14,8 @@
 	background-color: orange;
 	padding: 20px;
 	vertical-align: top;
+	width: 970px;
+	height: 970px;
 }
 
 #main_content {
@@ -23,16 +26,25 @@
 .col {
 	width: 19%;
 	display: inline-block;
-	background-color: teal;
+	/*background-color: teal;*/
 }
 .col img {
 	padding: 10px;
 	margin: 5px;
-	height: 75px;
-	width: 75px;
+	height: 80%;
+	width: 80%;
 }
 
-#col_1 img{
+#col_1 img, #col_3 img, #col_5 img{
+	display: block;
+	vertical-align: top;
 	background-color: blue;
-	margin-color: black;
+	border: 5px solid black;
+}
+#col_2 img, #col_4 img {
+	display: block;
+	vertical-align: top;
+	background-color: red;
+	border: 5px solid black;
+
 }
